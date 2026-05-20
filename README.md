@@ -1,7 +1,12 @@
 # ☢️ PercoChaos: Percolator Risk Engine Simulator
 
+[![Deployment Status](https://img.shields.io/badge/Live-PercoChaos.com-crimson?style=for-the-badge&logo=vercel)](https://perco-chaos.vercel.app/)
+
 A tactical, dark-mode "defense grid" UI built to stress-test and simulate Anatoly ("Toly") Yakovenko's Solana percolator perpetual-futures risk engine parameters under conditions of extreme market chaos.
 Built natively as a local tactical defense grid dashboard to simulate the structural degradation of a decentralized insurance vault.
+
+![PercoChaos Tactical Grid Preview](./preview.png)
+
 
 ## ⚡ The Simulation Rules
 
@@ -48,4 +53,3 @@ Follow these quick commands to spin up the tactical defense grid locally on your
 Open your browser and point your URL navigation field to: http://localhost:3000
 
 LIVE WEB : https://percochaos.com
-        OR https://percochaos.vercel.app
