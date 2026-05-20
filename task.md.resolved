@@ -1,0 +1,31 @@
+# PercoChaos — Build Task List
+
+## Layer 1 — Project Bootstrap
+- [ ] Run `create-next-app` in `PercoChaos/`
+- [ ] Install `recharts`, `lucide-react`, `clsx`, `tailwind-merge`
+- [ ] Verify `npm run dev` starts clean on port 3000
+
+## Layer 2 — Design System & Shell
+- [ ] Configure `styles/globals.css` (glitch, neon-pulse, scanline, chart-flash keyframes)
+- [ ] Configure `tailwind.config.ts` (custom colors, fonts, animation utilities)
+- [ ] Build `app/layout.tsx` (root shell, Space Grotesk + JetBrains Mono fonts, metadata)
+- [ ] Build `app/page.tsx` (3-panel grid layout, placeholder panels)
+- [ ] Build `components/ui/GlowPanel.tsx` (reusable neon-bordered card)
+
+## Layer 3 — Global Chaos Controls (Left Panel)
+- [ ] Build `components/ui/ChaosSlider.tsx`
+- [ ] Build `hooks/useGlitchEffect.ts`
+- [ ] Build `components/GlobalChaosControls.tsx` (sliders + Toly's Nightmare button)
+
+## Layer 4 — Simulation Engine & Chart (Center Panel)
+- [ ] Build `lib/percoMath.ts` (A, K, F, B, H-Ratio formulas)
+- [ ] Build `hooks/useSimulation.ts` (drain loop, 5 SOL vault, 60s reset)
+- [ ] Build `components/ui/StatusBadge.tsx`
+- [ ] Build `components/SimulationEngine.tsx` (Recharts chart + indices + deficit banner)
+
+## Layer 5 — PercoFork Terminal (Bottom Panel)
+- [ ] Build `components/PercoForkTerminal.tsx` (dynamic CLI output + copy button)
+
+## Verification
+- [ ] `npm run build` — zero TS/ESLint errors
+- [ ] Browser test — all interactions functional
