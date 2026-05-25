@@ -1,5 +1,8 @@
 # ☢️ PercoChaos: Percolator Risk Engine Simulator
 
+## OFFICIAL CONTRACT ADDRESS 🚀:
+## DaRedy8D2BcDNHgpDyE2znsSVu6oMvoY8Efw9HqWpump
+
 [![Deployment Status](https://img.shields.io/badge/Live-PercoChaos.com-crimson?style=for-the-badge&logo=vercel)](https://perco-chaos.vercel.app/)
 
 A tactical, dark-mode "defense grid" UI built to stress-test and simulate Anatoly ("Toly") Yakovenko's Solana percolator perpetual-futures risk engine parameters under conditions of extreme market chaos.
